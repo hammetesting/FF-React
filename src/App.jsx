@@ -41,7 +41,9 @@ function App() {
 
       try {
         console.log("Attempting to fetch data...");
-        const response = await fetch("/api/friends-and-foes");
+        const response = await fetch(
+          "https://ff-api-55i9.onrender.com/api/friends-and-foes"
+        );
 
         const contentType = response.headers.get("content-type");
         if (!contentType || !contentType.includes("application/json")) {
