@@ -1,0 +1,38 @@
+/* Add this to your index.css file */
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.offline-banner {
+  background-color: #ff9800;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.data-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.data-list li {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.data-list li:last-child {
+  border-bottom: none;
+}
